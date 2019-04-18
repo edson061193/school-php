@@ -1,0 +1,80 @@
+.alum_perfil{
+    background-color: white;border: 1px solid;float: left;width: 100%;
+    padding: 3px;
+}
+.img-r{
+    border-radius: 200px 200px 200px 200px;
+    padding: 4px;
+    border: 3px solid #9ACD32;
+ }
+.z{
+                background-color: #3399ff
+            }
+
+body {
+    margin:0px;
+    padding:0px 10px;
+}
+
+#header {
+    margin:auto;
+    /*float: left;*/
+    width:100%;
+    background-color: #C6C5C4; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#C6C5C4;
+    color:#000;
+    text-decoration:none;
+    padding:20px 12px;
+    display:block;
+    margin: 0px;
+}
+
+.nav li a:hover {
+    background-color: #E7BA75;
+    color: #26216B;
+    font-family: cursive;
+}
+
+.nav li ul {
+    display:none;
+    position:fixed;
+    /*min-width:-80px;
+    min-height: -30px;
+    */
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-10px;
+    top:0px;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/11/2014, 11:12:52 AM
+    Author     : EDS7
+*/
+

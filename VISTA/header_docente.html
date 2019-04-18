@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<div style="background-color:#B01215;width:100%;height:100px;top:0;left:0;padding:0px;margin:0px;">
+<img id="mostrar" src="../img/menu01.png" style="left:right;vertical-align:middle">
+
+</div>
+<link href="../css/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="../css/css_docente.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript">
+			var x;
+			x=$(document);
+			x.ready(inicializar);
+
+			function inicializar(){
+				var x=$("#mostrar");
+				x.click(muestrame);
+				
+			}
+			function muestrame(){
+				var x=$("#objetivo");
+				x.slideToggle("slow");
+			}
+			
+			
+		</script>
+
+ <div id="objetivo" style="background-color:#ffffff;width:10%;height:100%;position:absolute;"> 
+ <a  class="div_contedor" href="./intranet_docente.php"><div class="justificado">PERFIL</div></a>
+ <a  class="div_contedor" href="./asignar.php?p=nota"><div class="justificado">NOTAS</div></a>
+ <a  class="div_contedor" href="#"><div class="justificado">TAREAS</div></a>
+ <a  class="div_contedor" href="#"><div class="justificado">ACTIVIDADES</div></a>
+ <a  class="div_contedor" href="../cerrar_session.php"><div class="justificado">SALIR</div></a>
+ </div>
+</head>
+
+</html>

@@ -1,0 +1,259 @@
+/* 
+    Created on : 18/10/2014, 03:17:59 PM
+    Author     : Edson J Suarez Loli
+    canal     : http://youtube.com/edson061193
+*/html,body{
+    height:100%;
+}
+.contenedor_a{
+    width: 70%;
+    height: auto;
+    background-color: #fbeeb9;
+    border: 1px solid;
+}
+.btnNaranja{
+    background-color: #f7931e;
+    color: #ffffff;
+}
+.cerrar{
+
+    font-weight: 900;
+    text-align: right;
+}
+.cerrar a{
+    color: red;
+}
+.ventana{
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    position: fixed;
+    background-color: #63d7ea;
+    left: 0;
+    top: 0;
+    display: none;
+
+
+}
+
+.formulariox{
+    border-top: 17px solid #57a39d;
+    width: 85%;
+    height: 100%;
+    padding: 0px 20px;
+    background-color: white;
+    color: #000000;
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    margin-left: -35px;
+    margin-top:  -195px;
+}
+.formulario{
+    border-top: 17px solid #57a39d;
+    width: 45%;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    color: #000000;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    margin-left: -245px;
+    margin-top:  -175px;
+}
+.element
+{
+    text-shadow: 2px 1px 1px rgba(178, 165, 165, 0.75);
+    color: #FFB854;
+    font-size: 18px;
+}.h6xp{
+    color: #000000;
+    font-family: Calibri;
+    font-size: 18px;
+    padding: 1% 1%;
+    display: block;
+    /*    font-size: .83em;*/
+    margin-top: 4%;
+    /*margin-bottom: 2%;*/
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+}
+.fondoFormulario{
+    padding: 20px;
+    background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.47) 89%, rgba(0,0,0,0.47) 93%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(89%,rgba(0,0,0,0.47)), color-stop(93%,rgba(0,0,0,0.47))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.47) 89%,rgba(0,0,0,0.47) 93%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.47) 89%,rgba(0,0,0,0.47) 93%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.47) 89%,rgba(0,0,0,0.47) 93%); /* IE10+ */
+    background: linear-gradient(135deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.47) 89%,rgba(0,0,0,0.47) 93%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#78000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.alinear{
+    display:inline-block;
+    vertical-align:middle;
+}
+.textxxx{
+    color: #57a39d;
+    font-family: Calibri;
+    font-size: 24px;
+    display: block;
+
+    font-weight: bold;
+}
+.textAlumno{
+    color: #57a39d;
+    font-family: Calibri;
+    font-size: 24px;
+    padding: 3% 1%;
+    display: block;
+    /*    font-size: .83em;*/
+    margin-top: 4%;
+    /*margin-bottom: 2%;*/
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+.img_p{
+    width: 250px;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    float: none;
+}
+.colorhead{
+    background: -moz-linear-gradient(45deg,  rgba(26,41,178,0.65) 1%, rgba(26,41,178,0.65) 6%, rgba(26,41,178,0.65) 68%, rgba(26,41,178,0.65) 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(1%,rgba(26,41,178,0.65)), color-stop(6%,rgba(26,41,178,0.65)), color-stop(68%,rgba(26,41,178,0.65)), color-stop(99%,rgba(26,41,178,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  rgba(26,41,178,0.65) 1%,rgba(26,41,178,0.65) 6%,rgba(26,41,178,0.65) 68%,rgba(26,41,178,0.65) 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  rgba(26,41,178,0.65) 1%,rgba(26,41,178,0.65) 6%,rgba(26,41,178,0.65) 68%,rgba(26,41,178,0.65) 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  rgba(26,41,178,0.65) 1%,rgba(26,41,178,0.65) 6%,rgba(26,41,178,0.65) 68%,rgba(26,41,178,0.65) 99%); /* IE10+ */
+    background: linear-gradient(45deg,  rgba(26,41,178,0.65) 1%,rgba(26,41,178,0.65) 6%,rgba(26,41,178,0.65) 68%,rgba(26,41,178,0.65) 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a61a29b2', endColorstr='#a61a29b2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.tablex{
+    width: 100%;
+    padding: 30px;
+    height: 10px;
+    border-top: 3px solid #281F71;
+    border-bottom:  3px solid #E23A13;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.tdcolor{
+    background-color: #DFB472;
+}
+.tdcolor2{
+    background-color: #281F71;
+    color: #fff;
+
+}
+body{
+    margin: 0px 10px;
+    padding:  0px 10px;
+    /*background-image: url(../img/fondo.jpg)*/
+
+}
+html{
+    /*height: 100%;*/
+
+}
+#page-wrap{
+    /*width: 960px;*/
+    margin: auto;
+    height: auto;
+    min-width: 100%;
+}
+footer{
+    width: 960px;
+    height: 150px;
+    margin: -150px auto 0;
+}
+.align_body{
+    display: inline-block;
+    vertical-align: top;
+    /*    text-align: right*/
+}
+.contenedor_principal{
+    /*background-color: #d3f1f1;*/
+    width: 100%;
+    height:100%;
+    margin: 0px;
+    padding: 3px;
+    /*background-image: url(../..//image_PHP/fondo.jpg);*/
+}
+.header_principal{
+
+    width: 33%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.access_index{
+    width: 30px;
+    background-color: #eaf1f1;
+
+}
+.colorPag{
+    background-color: #4ef9b4
+}
+nav{
+
+    background-color: #9f0900;
+    width: 100%;
+    float: left;
+     margin: 0px;
+    padding: 0px;
+   
+
+}
+nav lu{
+    text-decoration: none;
+
+}
+nav ul li{
+    text-align: center;
+    width: 130px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2% 1%;
+  
+    background-color: #9f0900;
+    margin: 0px ;
+   
+}
+nav ul li a{
+      font-weight: 300;
+       color: white;
+}
+nav ul li:hover{
+  
+    background-color: #fbd4dc;
+    text-decoration: none;
+    border-bottom: 5px solid #000000;
+   
+}
+nav ul li a:hover{
+     color: #000000;
+     text-decoration: none;
+}
+
+nav{
+    display: inline-block;
+    vertical-align: top;  
+       color: #000000;
+    font-size: 13px;
+}
+nav ul{
+    text-decoration: none;
+    font-family: arial;
+    padding: 0px;
+    margin:   0px;
+}
+nav ul li {
+
+    display: inline-block;
+    vertical-align: top;  
+   
+}
